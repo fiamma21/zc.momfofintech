@@ -1,0 +1,102 @@
+.dialogContent{
+  font-family:PingFangSC-Regular;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  font-size: 16px;
+}
+.progress{
+  display: flex;
+  height: 54px;
+  margin-top:24px;
+  justify-content: center;
+  align-items: center;
+}
+.progressOut{
+  background:#f7f7f7;
+  width:54px;
+  height:54px;
+  border-radius:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:24px;
+  color: #fff;
+  position: relative;
+}
+.progressOut p{
+  position: absolute;
+  top:65px;
+  width:150px;
+  color: #707070;
+  font-size: 16px;
+}
+.progressLine{
+  background: #f7f7f7;
+  width:196px;
+  height:6px;
+}
+.progressOut div{
+  width:42px;
+  height:42px;
+  border-radius:100%;
+  line-height: 42px;
+}
+.gradient_1{ background-image:radial-gradient(50% 100%, #f8ce6d 0%, #f4bc6f 100%);}
+.gradient_2{background: #d2d2d2}
+.progressMain{
+  margin-top:102px;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*第一步内容样式 start*/
+.sendCode{
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 30px;
+  color: #47443d;
+}
+.sendCode input{
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  width: 94px;
+  height: 28px;
+  margin-left: 5px;
+  outline: 0;
+  padding-left:4px;
+  box-sizing: border-box;
+}
+.sendCode input:focus{
+  border-color:#f0b954;
+}
+.resSend p{
+  margin-top:3px;
+}
+.resSend button{
+  color:#5aaae7;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  outline: 0;
+}
+/*第一步内容样式 end*/
+/*第三步内容样式 start*/
+.phoneOK{
+  font-size: 20px;
+  color: #707070;
+  margin-top: 64px;
+}
+.phone-button button{
+  background:#f0b954;
+  border-radius:8px;
+  width:241px;
+  height:42px;
+  font-size: 22px;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
